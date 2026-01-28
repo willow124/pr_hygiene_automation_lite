@@ -1,0 +1,11 @@
+name: PR Hygiene Lite
+
+on:
+  pull_request:
+
+jobs:
+  pr_hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR hygiene marker
+        run: echo "PR-HYGIENE-LITE: WORKFLOW OK"
